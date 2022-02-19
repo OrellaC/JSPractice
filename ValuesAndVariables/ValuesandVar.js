@@ -49,7 +49,23 @@ console.log(updatedDescription);
         // ========= If/Else Statements ========= 
 // 1. If your country's population is greater that 33 million, log a string like this to the console:'Portugal's population is above average'. Otherwise, log a string like 'Portugal's population is 22 million below average' (the 22 is the average of 33 minus the country's population)
 if (population > 33000000){
-    console.log("Guyana's population is above average")
+    console.log(`${country}'s population is above average`)
 } else {
-    console.log("Guyana's population is below average")
+    console.log(`${country}'s population is ${33000000 - population} million below average`)
 }
+
+        // ======== Type Conversion and Coercion ======== 
+// 1. Predict the result of these 5 operations without executing them:
+// '9' - '5';
+// '19' - '13' + '17';
+// '19' - '13' + 17;
+// '123' < 57;
+// 5 + 6 + '4' + 9 - 4 - 2;
+
+// 2. Execute the operations to check if you were right
+console.log('9' - '5');
+console.log('19' - '13' + '17');
+console.log('19' - '13' + 17);
+console.log('123' < 57);
+console.log(5 + 6 + '4' + 9 - 4 - 2);
+
