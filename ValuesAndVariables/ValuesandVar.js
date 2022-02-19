@@ -38,3 +38,10 @@ console.log(population < 33000000);
 let description = country + " is in " + continent + " and its " + population + " thousand people speak " + language; 
 
 console.log(description)
+
+    // ========== Strings and Template Literals ==========
+// 1. Recreate the 'description' variable from the last assignment, this time using the template literal syntax
+ 
+let updatedDescription = `${country} is in ${continent} and its ${population} thousand people speak ${language}`
+
+console.log(updatedDescription);
